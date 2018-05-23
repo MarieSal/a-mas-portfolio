@@ -142,10 +142,3 @@ input[type=number]::placeholder {
     font-weight: 100;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
-
-.menu ul li a::before {
-    content: ''
-}
-.menu ul li a::after {
-    
-}
