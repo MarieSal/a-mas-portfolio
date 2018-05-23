@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(23,16,39);
+    color: white;
+    margin: 30px;
+    padding: 0 150px;
+    font-size: 0;
+    height: 100%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+a {
+    color: white;
+}
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: underline fuchsia;
+}
+
+.contenedor {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    height: 100%;
+}
+
+.header {
+    width: 250px;
+}
+
+.main {
+    width: 78%;
+}
+.logo {
+    margin: 10% auto;
+    display: block;
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+    overflow: hidden;
+    border: /* #ffffffb8 */ #ffc9ffbf 2px solid;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li {
+    width: 100%;
+    height: 35px;
+}
+.menu ul li a {
+    display: block;
+    width: calc(100% - 14px);
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    text-decoration: none;
+    border-left: 7px transparent solid;
+}
+.menu ul li a:hover {
+    background-color: rgba(230,99,222,0.15);
+}
+.menu ul .active a {
+    border-color: fuchsia;
+    background: #e27be229;
+    color: fuchsia;
+    font-weight: 600;
+}
+.redes-sociales {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+}
+.redes-sociales li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.index-button {
+    text-decoration: none;
+    font-weight: 300;
+    background: #422358;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+    border: 1px solid #ff7bff1a;
+}
+
+.formulario {
+    background: #ff7bff1a;
+    border: 1px solid #ff7bff21;
+    padding: 30px;
+    border-radius: 4px;
+}
+.required-field {
+    color: red;
+}
+input[type=submit] {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #422358;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+    border: 1px solid #ff7bff1a;
+}
+input[type=text] {
+    background: #ffffff29;
+    border: 1px solid #ff7bff1a;
+    border-radius: 3px;
+    padding: 4px;
+    color: #ffffff;
+}
+input[type=number] {
+    background: #ffffff29;
+    border: 1px solid #ff7bff1a;
+    border-radius: 3px;
+    padding: 4px;
+    color: #ffffff;
+}
+input[type=text]::placeholder {
+    color: #ffffffd1;
+    font-weight: 100;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+input[type=number]::placeholder {
+    color: #ffffffd1;
+    font-weight: 100;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.menu ul li a::before {
+    content: ''
+}
+.menu ul li a::after {
+    
+}
